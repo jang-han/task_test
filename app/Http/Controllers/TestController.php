@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Models\Test;
+use Illuminate\Support\Facades\DB;
 
 class TestController extends Controller
 {
@@ -14,8 +14,10 @@ class TestController extends Controller
 
         $values = Test::all();
 
+        $tests = DB::table('tests')->select('id')->where('id',1)->get();
+
         // die + var_dump
-        // dd($values);
+        dd($tests);
 
         return view('tests.test', compact('values'));
     }

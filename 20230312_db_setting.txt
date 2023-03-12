@@ -55,6 +55,51 @@ Psy Shell v0.11.12 (PHP 8.0.8 — cli) by Justin Hileman
 // dd($values);
 
 
+laravel参考サイト
+https://readouble.com/laravel/9.x/ja/
+
+
+
+
+Laravel6.0から"make:auth"が使えない
+フロントエンド側のソースを設置
+https://qiita.com/isaatsu0131/items/e515066fbce11cbd8f35
+
+vite
+https://ja.vitejs.dev/
+
+Laravel-vite
+https://laravel-vite.dev/
+
+laravel-viteからlaravel-mixに戻したい
+https://qiita.com/shomffl/items/b4d8e19f152f1da0f821
+
+
+
+php artisan migrate
+php artisan migrate:status
+php artisan migrate:rollback
+php artisan migrate:rollback --step=2 何個を戻すのか
+
+
+コントローラー作成コマンド
+php artisan make:controller PhotoController --resource
+https://readouble.com/laravel/9.x/ja/controllers.html
+
+
+
+laravelログイン画面
+id nomad
+pw password123
+
+
+
+
+
+
+
+
+
 
 
 
